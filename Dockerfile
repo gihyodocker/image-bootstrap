@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM golang:1.20.5 AS build
+FROM --platform=$BUILDPLATFORM golang:1.21.6 AS build
 ARG TARGETARCH
 
 WORKDIR /go/src/github.com/gihyodocker/image-bootstrap
